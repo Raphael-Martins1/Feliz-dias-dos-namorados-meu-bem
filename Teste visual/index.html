@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Dia dos Namorados</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Reveal Screen -->
+  <div id="reveal-screen" class="reveal-screen">
+    <div class="reveal-content">
+      <h1>Para o meu amor...</h1>
+      <button onclick="iniciarExperiencia()">Clique para começar 🌻</button>
+    </div>
+  </div>
+
+  <!-- Página Inicial -->
+  <section id="inicio" class="section active">
+    <div class="container">
+      <img id="foto" class="foto" src="img/Foto1.jpg" alt="Foto do Casal">
+      <h1 class="frase-forte">Cada momento ao seu lado é especial. Eu te amo infinitamente!</h1>
+      <div class="contador" id="contador"></div>
+      <div class="page-buttons">
+        <button onclick="mostrarPagina('historia')">Começar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- História -->
+  <section id="historia" class="section">
+    <div class="container">
+      <h2>Nossa História</h2>
+      <div class="timeline">
+        <!-- Adicione itens da timeline aqui -->
+        <div class="timeline-item">
+          <h3>Momento 1</h3>
+          <img src="img/foto2.png" alt="momento 1">
+          <p>O dia em que pedi você em namoro, depois do nosso primeiro mês juntos se conhecendo, foi um momento que mais fiquei com medo mas tinha certeza sobre minha decisão.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 2</h3>
+          <img src="img/Momentos/Capa.png" alt="momento 2">
+          <p>A música que escolhemos como a nossa, toca no meu coração todos os dias e me lembra você em cada nota.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 3</h3>
+          <img src="img/Foto1.jpg" alt="momento 3">
+          <p>Nossa foto criada pela IA, que em breve terá será na vida real.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 4</h3>
+          <img src="img/Momentos/cofcut.jpg" alt="momento 4">
+          <p>Nosso lugar especial, onde começamos a ficar mais juntos depois de afastar quem não fazia bem para nós.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 5</h3>
+          <img src="img/Momentos/euteamo.png" alt="momento 5">
+          <p>Meu primeiro "eu te amo" entre tantos que já disse, e todos são verdadeiros e eternos.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 6</h3>
+          <video controls>
+            <source src="img/Momentos/Jornal Oasis.mp4" type="video/mp4">
+          </video>
+          <p>Sua primeira vez me ajudando a fazer um vídeo para o ilegal, e eu adoro rever esse momento.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Momento 7</h3>
+          <video controls>
+            <source src="img/Momentos/ligações.mp4" type="video/mp4">
+          </video>
+          <p>Todas nossas ligações do zap só fazem eu lembrar de como somos bons juntos.</p>
+        </div>
+        <!-- Adicione mais itens -->
+      </div>
+      <div class="page-buttons">
+        <button onclick="mostrarPagina('inicio')">Voltar</button>
+        <button onclick="mostrarPagina('emocional')">Próxima</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parte Emocional -->
+  <section id="emocional" class="section">
+    <div class="container">
+      <h2>Parte Emocional</h2>
+      <div class="carta">
+        <h3>Para a minha Girassol 🌻</h3>
+        <p>Meu amor, você pediu algo escuro e bonito, então preparei este cantinho especial para você. Você ilumina meus dias como um girassol, traz doçura e alegria para a minha vida como jelly beans, e me conforta como o seu prato preferido, um delicioso estrogonofe! Eu te amo demais!</p>
+      </div>
+      <div class="motivos">
+        <h3>Coisas que mais amo</h3>
+        <ul>
+          <li>Seu brilho único que me lembra o girassol 🌻</li>
+          <li>Seu jeito doce e colorido, como suas balas favoritas jelly beans 🍬</li>
+          <li>Sua companhia perfeita, que é melhor que qualquer prato de estrogonofe(eu acho) 🍲</li>
+          <li>Cada momento ao seu lado!</li>
+        </ul>
+      </div>
+      <div class="idiomas-amor">
+        <h3>Em todos os idiomas do mundo...</h3>
+        <div class="grid-idiomas">
+          <span>🇧🇷 Eu te amo</span>
+          <span>🇺🇸 I love you</span>
+          <span>🇪🇸 Te amo</span>
+          <span>🇫🇷 Je t'aime</span>
+          <span>🇮🇹 Ti amo</span>
+          <span>🇩🇪 Ich liebe dich</span>
+          <span>🇯🇵 愛してる (Aishiteru)</span>
+          <span>🇰🇷 사랑해 (Saranghae)</span>
+          <span>🇷🇺 Я тебя люблю</span>
+          <span>🇬🇷 Σ' αγαπώ</span>
+          <span>🇳🇱 Ik hou van jou</span>
+          <span>🇸🇪 Jag älskar dig</span>
+        </div>
+      </div>
+      <div class="page-buttons">
+        <button onclick="mostrarPagina('historia')">Voltar</button>
+        <button onclick="mostrarPagina('final')">Próxima</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final -->
+  <section id="final" class="section">
+    <div class="container">
+      <h2>Mensagem Especial</h2>
+      <p>Feliz Dia dos Namorados! Você é a minha flor favorita e a melhor parte da minha vida ❤️</p>
+      <div class="page-buttons">
+        <button onclick="mostrarPagina('emocional')">Voltar</button>
+        <button onclick="mostrarSurpresa()">Uma Promessa 🌻</button>
+      </div>
+      <div class="surpresa" id="surpresa">
+        Não importa o que aconteça, nos dias mais brilhantes ou nos mais difíceis, eu sempre estarei ao seu lado, segurando a sua mão. Você nunca estará sozinha.em breve vamos comemorar nosso amor! eu te amo para sempre!
+      </div>
+    </div>
+  </section>
+
+  <!-- Player de Música -->
+  <div class="player-musica">
+    <img src="img/Momentos/Capa.png" class="capa-musica" onclick="abrirPlayer()">
+    <div class="menu-musica" id="menuMusica">
+      <button onclick="toggleMusica()" id="botaoPlayPause">⏸</button>
+
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1" onchange="mudarVolume(this.value)">
+
+  </div>
+
+  <audio id="musica" loop>
+    <source src="Music/No_Escuro.mp3" type="audio/mp3">
+  </audio>
+
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
