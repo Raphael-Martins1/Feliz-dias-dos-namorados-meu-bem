@@ -38,7 +38,7 @@ function criarCoracao(){
 
   heart.classList.add("heart");
 
-  const emojis = ["❤️", "🌻", "🌻", "🍬", "✨"];
+  const emojis = ["❤️", "🌻", "🌻", "🍬", "✨", "🎤"];
   heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
 
   const largura = window.innerWidth;

@@ -349,3 +349,30 @@ button:hover{
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(255, 204, 0, 0.4);
 }
+
+/* Girassol section styles */
+.girassol-title {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #fff3b0;
+}
+
+.girassol-text {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  margin-bottom: 14px;
+  color: #f7f0d1;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.motivos li {
+  font-size: 1.18rem;
+  margin: 8px 0;
+}
+
+@media (max-width: 600px) {
+  .girassol-title { font-size: 1.6rem; }
+  .girassol-text { font-size: 1.05rem; }
+}
